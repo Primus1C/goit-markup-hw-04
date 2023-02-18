@@ -142,15 +142,27 @@ ul {
     padding-top: 120px;
 }
 
+.overlay{
+    background-image: url("/images/people-office.jpg");
+    /*margin-left: auto;
+    margin-top: auto;*/
+    /*max-width: 1140;
+    height: 600;*/
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    background-position: center;
+}
+
 .hero {
     text-align: center;
     padding: 188px 0px;
-
     background-color: var(--color-dark);
+
     background-image: url("/images/people-office.jpg");
+    /*background-size: 1440px auto; 
+    max-width: 1440px;*/
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 80%;
 }
 
 .hero-title {
