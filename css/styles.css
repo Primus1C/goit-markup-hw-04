@@ -4,8 +4,8 @@
     --color-primary-brand: #4D5AE5; /* IRIS */
     --pressed-state: #404BBF;       /* OCEAN */
     --color-accent: #E7E9FC;        /* CORNFLOWER */
-    --color-light: #F4F4FD;
-    --color-inverted: #FFFFFF;
+    --color-light: #F4F4FD;         /* CLOUD */
+    --color-inverted: #FFFFFF;  
 }
 * 
 *::before
@@ -158,9 +158,9 @@ ul {
     padding: 188px 0px;
     background-color: var(--color-dark);
 
-    background-image: url("/images/people-office.jpg");
-    /*background-size: 1440px auto; 
-    max-width: 1440px;*/
+    background-image: linear-gradient(rgb(46,47,66, 0.7) , rgb(46, 47, 66, 0.7)),
+    url("/images/people-office.jpg");
+    background-size: 1440px auto; 
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -232,13 +232,21 @@ ul {
     margin: -1px;
 }
 
-.list-advantage {
-    /*gap: 24px;*/
-}
-
 .list-advantage-item {
     width: calc((100% - 72px) / 4);
 }
+
+.advantage-icon{
+    width: auto;
+    height: 112px;
+    max-width: 100%;
+    background-color: var(--color-light);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
 
 /* ===================================== WHAT ARE WE DOING */
 .activities{
@@ -305,6 +313,13 @@ ul {
     width: calc((100% - 48px) / 3);
     border: 1px solid var(--color-accent);
 }
+
+/* ===================================== CUSTOMERS */
+
+.customers {
+    padding-bottom: 120px;
+}
+
 
 /* ===================================== PORTFOLIO */
 .portfolio{
