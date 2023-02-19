@@ -3,9 +3,10 @@
     --color-text: #434455;          /* SLATE*/
     --color-primary-brand: #4D5AE5; /* IRIS */
     --pressed-state: #404BBF;       /* OCEAN */
-    --color-accent: #E7E9FC;        /* CORNFLOWER */
+    --color-accent: #E7E9FC;        /* CORNFLOWER */ 
     --color-light: #F4F4FD;         /* CLOUD */
     --color-inverted: #FFFFFF;  
+    --color-border-light: #8E8F99;  /* LIGHT SLATE */
 }
 * 
 *::before
@@ -314,12 +315,61 @@ ul {
     border: 1px solid var(--color-accent);
 }
 
+.list-item-social{
+    width: calc((100% - 72px) / 4);
+    height: 40px;
+    background: var(--color-primary-brand);
+    border-radius: 50%;
+}
+
+.ident-list {
+    margin-top: 8px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.social-icon {
+    width: 16px;
+    height: 16px;
+}
+
 /* ===================================== CUSTOMERS */
 
 .customers {
     padding-bottom: 120px;
 }
 
+.customer-list
+{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*gap: 24px;*/
+}
+
+.list-item-cusromers{
+    padding: 16px 32px;
+    border: 1px solid var(--color-border-light);
+    border-radius: 4px;
+}
+
+.list-item-cusromers:hover,
+.list-item-cusromers:focus {
+    border: 1px solid var(--pressed-state);
+    color: var(--pressed-state);
+    fill: var(--pressed-state);
+}
+
+.customer-icon {
+    width: 100%;
+    height: 56px;
+    /*fill: currentColor;*/
+}
 
 /* ===================================== PORTFOLIO */
 .portfolio{
