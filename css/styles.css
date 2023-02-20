@@ -315,32 +315,25 @@ ul {
     border: 1px solid var(--color-accent);
 }
 
-.social-list-item{
-    width: calc((100% - 72px) / 4);
-    height: 40px;
-    background: var(--color-primary-brand);
-    border-radius: 50%;
-}
-
 .ident-list {
-    /*display: flex;*/
     margin-top: 8px;
+    gap: inherit;
     justify-content: space-between;
 }
 
-/*
 .social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: var(--color-primary-brand);
+    border-radius: 50%;
 }
-*/
 
 .social-icon {
     width: 16px;
     height: 16px;
+    justify-content: center;
+    margin-top: 12px;
 }
 
 /* ===================================== CUSTOMERS */
@@ -352,8 +345,6 @@ ul {
 .customer-list
 {
     display: flex;
-    /*flex-wrap: wrap;*/
-    /*gap: 24px;*/
 }
 
 .list-item-cusromers{
@@ -372,7 +363,6 @@ ul {
 .customer-icon {
     width: 100%;
     height: 56px;
-    /*fill: currentColor;*/
 }
 
 /* ===================================== PORTFOLIO */
