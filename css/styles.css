@@ -7,6 +7,8 @@
     --color-light: #F4F4FD;         /* CLOUD */
     --color-inverted: #FFFFFF;  
     --color-border-light: #8E8F99;  /* LIGHT SLATE */
+    --color-success: #31D0AA;        /* GREEN */
+    --color-dark-button: rgba(255, 255, 255, 0.1);
 }
 * 
 *::before
@@ -322,7 +324,10 @@ ul {
 }
 
 .social-link {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 40px;
     width: 40px;
     background-color: var(--color-primary-brand);
@@ -332,8 +337,6 @@ ul {
 .social-icon {
     width: 16px;
     height: 16px;
-    justify-content: center;
-    margin-top: 12px;
 }
 
 /* ===================================== CUSTOMERS */
@@ -412,9 +415,33 @@ ul {
     padding: 100px 0;
 }
 
+.footer-container {
+    display: flex;
+    gap: 120px;
+}
+
 .footer-text {
     line-height: 1.5;
     color: var(--color-accent);
     max-width: 254px;
     margin-top: 16px;
+}
+
+.footer-title{
+    line-height: 1.5;
+    color: var(--color-inverted);
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.media-list{
+    gap: 16px;
+}
+
+.social-link-dark{
+    background-color: var(--color-dark-button);}
+
+.social-link-dark:hover,
+.social-link-dark:focus{
+    background-color: var(--color-success);
 }
