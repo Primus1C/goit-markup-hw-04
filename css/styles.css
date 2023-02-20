@@ -356,7 +356,7 @@ ul {
 }
 
 .customer-link {
-
+    fill: var(--color-border-light);
 }
 
 .list-item-cusromers {
@@ -369,18 +369,19 @@ ul {
 .list-item-cusromers:focus {
     border: 1px solid var(--pressed-state);
     color: var(--pressed-state);
-    fill: var(--pressed-state);
-}
-
-.list-item-cusromers:hover path,
-.list-item-cusromers:focus path {
-    fill: var(--pressed-state);
+    /*fill: var(--pressed-state);*/
 }
 
 .customer-icon {
     width: 100%;
     height: 56px;
-    fill: currentColor;
+    /*fill: currentColor;*/
+    fill: var(--color-border-light);
+}
+
+.customer-icon:hover,
+.customer-icon:focus {
+    fill: var(--pressed-state);
 }
 
 /* ===================================== PORTFOLIO */
