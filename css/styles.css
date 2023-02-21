@@ -162,8 +162,7 @@ ul {
     padding: 188px 0px;
     background-color: var(--color-dark);
 
-    background-image: linear-gradient(rgb(46,47,66, 0.7) , rgb(46, 47, 66, 0.7)),
-    url("../images/people-office.jpg");
+    background-image: linear-gradient(rgb(46,47,66, 0.7) , rgb(46, 47, 66, 0.7)), url("../images/people-office.jpg");
     background-size: 1440px auto; 
     background-position: center;
     background-repeat: no-repeat;
