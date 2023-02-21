@@ -337,8 +337,8 @@ ul {
 }
 
 .social-link:hover,
-.social-link:focus{
-background-color: var(--pressed-state);
+.social-link:focus {
+    background-color: var(--pressed-state);
 }
 
 .social-icon {
@@ -378,7 +378,7 @@ background-color: var(--pressed-state);
 }
 
 /* ===================================== PORTFOLIO */
-.portfolio{
+.portfolio {
     padding-top: 96px;
     padding-bottom: 120px;
 }
@@ -408,7 +408,7 @@ background-color: var(--pressed-state);
     column-gap: 24px;
 }
 
-.portfolio-descript{
+.portfolio-descript {
     padding: 32px 16px;
 }
 
@@ -443,21 +443,21 @@ background-color: var(--pressed-state);
     margin-top: 16px;
 }
 
-.footer-title{
+.footer-title {
     line-height: 1.5;
     color: var(--color-inverted);
     font-weight: 500;
     margin-bottom: 16px;
 }
 
-.media-list{
+.media-list {
     gap: 16px;
 }
 
-.social-link-dark{
+.social-link-dark {
     background-color: var(--color-dark-button);}
 
 .social-link-dark:hover,
-.social-link-dark:focus{
+.social-link-dark:focus {
     background-color: var(--color-success);
 }
