@@ -12,7 +12,7 @@
 }
 * 
 *::before
-*::after{
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,7 +39,7 @@ ul {
     padding: 0;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1158px;
     margin: 0 auto;
@@ -53,19 +53,19 @@ ul {
 
 /* ===================================== HEADER */
 
-.header{
+.header {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--color-accent);
 }
 
-.header-underline{
+.header-underline {
     box-shadow: 0px 1px 6px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
     box-shadow: 0px 2px 1px 0px #2E2F4214;
 }
 
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -239,22 +239,22 @@ ul {
    display: flex;
    align-items: center;
    justify-content: center;
-    background-color: var(--color-light);
-    border-radius: 4px;
+   padding: 24px;
+   background-color: var(--color-light);
+   border-radius: 4px;
    margin-bottom: 8px;
 }
 
 .advantage-icon{
-    /*width: max-content;*/
     height: 112px;
 }
 
 /* ===================================== WHAT ARE WE DOING */
-.activities{
+.activities {
     padding-bottom: 120px;
 }
 
-.list-item-activity{
+.list-item-activity {
     width: calc((100% - 48px) / 3);
 }
 
@@ -271,7 +271,7 @@ ul {
     gap: 24px;
 }
 
-.list-item-team{
+.list-item-team {
     width: calc((100% - 72px) / 4);
     background-color: var(--color-inverted);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.16);
@@ -283,7 +283,7 @@ ul {
     padding: 32px 16px;
 }
 
-.image-with-bachground{
+.image-with-bachground {
     display: block;
     max-width: 100%;
     background: var(--color-accent);
@@ -309,7 +309,7 @@ ul {
     margin-bottom: 8px;
 }
 
-.link-none-decor{
+.link-none-decor {
     text-decoration: none;
     width: calc((100% - 48px) / 3);
     border: 1px solid var(--color-accent);
