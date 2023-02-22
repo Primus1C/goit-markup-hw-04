@@ -239,18 +239,15 @@ ul {
    display: flex;
    align-items: center;
    justify-content: center;
+    background-color: var(--color-light);
+    border-radius: 4px;
    margin-bottom: 8px;
 }
 
 .advantage-icon{
     /*width: max-content;*/
     height: 112px;
-    background-color: var(--color-light);
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-radius: 4px;
 }
-
 
 /* ===================================== WHAT ARE WE DOING */
 .activities{
@@ -362,13 +359,13 @@ ul {
 }
 
 .list-item-cusromers {
-    width: ((100% - 24px) / 6);
+    width: calc((100% - 120px) / 6);
 }
 
 .customer-link:hover,
 .customer-link:focus {
     color: var(--pressed-state);
-    border: 1px solid var(--pressed-state);
+    border-color: var(--pressed-state);
 }
 
 .customer-icon {
@@ -459,4 +456,9 @@ ul {
 .social-link-dark:hover,
 .social-link-dark:focus {
     background-color: var(--color-success);
+}
+
+.social-icon-large{
+    width: 24px;
+    height: 24px;
 }
