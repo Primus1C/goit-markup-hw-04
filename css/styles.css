@@ -358,7 +358,7 @@ ul {
     color: var(--color-border-light);
 }
 
-.list-item-cusromers {
+.list-item-customers {
     width: calc((100% - 120px) / 6);
 }
 
